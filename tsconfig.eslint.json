@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "rules": {
+    "no-console": false
+  },
+  "include": [
+    // repeated from base config's "include" setting
+    "src",
+    "src/**/*.d.ts",
+    ".eslintrc.js"
+  ]
+}

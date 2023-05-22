@@ -1,0 +1,57 @@
+export const InputStyle = {
+	mask: {
+		position: 'absolute',
+		top: '25px',
+		transform: 'translateY(-50%)',
+		left: '0px',
+		outline: 'none',
+		cursor: 'text',
+		letterSpacing: '1px',
+		lineHeight: '1.71',
+		verticalAlign: 'middle',
+		pointerEvents: 'none',
+		padding: '13px',
+		color: 'var(--dark-gray)',
+		fontSize: '1.125rem',
+		fontFamily: "'Poppins', serif",
+		fontWeight: '500',
+		width: '100%',
+	},
+	label: {
+		paddingBottom: '10px',
+		color: 'var(--dark-gray)',
+		fontSize: '1rem',
+		fontFamily: '"Poppins", "Roboto", sans-serif',
+	},
+	issuerLogo: {
+		width: '40px',
+	},
+	minor: {
+		border: '1px solid var(--border-color)',
+		color: 'var(--theme-primary)',
+		borderColor: 'var(--theme-primary) !important',
+		background: 'var(--light-theme-primary)',
+	},
+	major: {
+		border: '1px solid var(--border-color)',
+		color: 'var(--red)',
+		borderColor: 'var(--red) !important',
+		background: 'var(--light-red)',
+	},
+	error: {
+		borderRadius: '9px',
+		padding: '10px',
+		marginTop: '10px',
+		fontSize: '0.875rem',
+		fontFamily: '"Poppins", "Roboto", sans-serif',
+	},
+	errorIcon: {
+		width: '5% !important',
+		marginRight: '10px',
+	},
+	textFeildIcon: {
+		width: '50px',
+		height: '20px',
+		paddingLeft: '20px',
+	},
+};

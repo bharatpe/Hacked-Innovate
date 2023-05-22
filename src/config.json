@@ -1,0 +1,18 @@
+{
+  "prod": {
+    "commands": [
+      "/home/bharatpe-nbfc-slave/.nvm/versions/node/v14.5.0/bin/yarn install --legacy-peer-deps --production=true;",
+      "/home/bharatpe-nbfc-slave/.nvm/versions/node/v14.5.0/bin/yarn build --ignore-engines;"
+    ]
+  },
+  "tags": {
+    "TechnologyUnit": "<See Resource Tagging Standards>",
+    "Project": "<See Resource Tagging Standards>",
+    "Component": "<See Resource Tagging Standards>",
+    "Environment": "__ENV__DO_NOT_MODIFY",
+    "infra_deployed_by": "bb_pipelines:s3frontend",
+    "infra_deployed_tag": "__DEPLOYED_TAG__DO_NOT_MODIFY",
+    "infra_deployed_on": "__DEPLOYED_ON__DO_NOT_MODIFY",
+    "infra_deployed_repo": "__DEPLOYED_REPO__DO_NOT_MODIFY"
+  }
+}
